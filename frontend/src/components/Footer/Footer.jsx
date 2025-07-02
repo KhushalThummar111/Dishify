@@ -7,7 +7,7 @@ const Footer = () => {
     <div className='footer' id='footer'>
         <div className="footer-content">
             <div className="footer-content-left">
-                <img src={assets.logo} alt="" />
+                <img src={assets.logo} alt="" className='footer-logo'/>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima sapiente ducimus architecto, totam dolores debitis deleniti eum, sequi culpa officia adipisci est tempore explicabo ut odit, vitae ea iusto voluptatem?</p>
                 <div className="footer-social-icons">
                     <img src={assets.facebook_icon} alt="" />
